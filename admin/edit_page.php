@@ -104,6 +104,7 @@ if($_POST['Submit'] == "Edit")
 		 </tr>	
 		<? } ?>
 	 
+     <tr><td align="left"><a href="all_page.php">Back</a></td></tr>		  
     <tr><td><b>Title:</b></td>
 		<td><textarea name="title" required rows="20" columns="15"><? echo $title;?></textarea><td></tr>
 	  
