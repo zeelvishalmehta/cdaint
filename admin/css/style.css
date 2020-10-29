@@ -1,7 +1,7 @@
 body {font-family: Arial, Helvetica, sans-serif; background-color:#f5f5f0}
 
 input[type=text], input[type=password] {
-  width: 79%;
+  width: 40%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
@@ -13,7 +13,7 @@ input[type=text], input[type=password] {
   background-color: #4CAF50;
   color: white;
   padding: 11px 20px;
-  margin-left: 80px;
+  margin-left: 140px;
   border: none;
   cursor: pointer;
   width: 25%;
@@ -58,7 +58,7 @@ table
 
 .container {
   padding: 16px;
-  width: 30%;
+  width: 27%;
   margin: auto;	
   border: 2px solid #ebebe0;
   background-color: white;	
@@ -156,10 +156,13 @@ textarea[name=description]
 	font-size: 16px;
 	
 }
-
 .tdedit
 {
 	text-align: center;
 	font-weight: bold;
 	
+}
+.loginlabel
+{
+	margin-left: 60px;	
 }
