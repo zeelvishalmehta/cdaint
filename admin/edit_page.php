@@ -136,6 +136,7 @@ if($_POST['Submit'] == "Edit")
 	  { ?>
 		 <tr><td><b>Email address:</b></td>
 	  <td><input type="text" name="email" value="<? echo $email;?>" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+         <br>*Mentioned email address is getting all enquiry and feedback from the users and it's editable by admin only.		  
 	  </td>
 	 </tr>  
 	  <? }
