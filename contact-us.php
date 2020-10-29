@@ -100,11 +100,11 @@ $rfooter = mysqli_fetch_array($footer);
 		<meta property="og:image" content="image/<? echo $img;?>" />
 		
 <!-- Start Google Analytics -->
-<? echo html_entity_decode($google, ENT_QUOTES);?>
+<? echo base64_decode($google);?>
 <!-- end google-->	
 
 <!-- Start facebook -->
-<? echo html_entity_decode($facebook, ENT_QUOTES);?>	
+<? echo base64_decode($facebook);?>	
 <!-- end -->	
 </head>
 		
@@ -257,7 +257,7 @@ $rfooter = mysqli_fetch_array($footer);
 <!--------------------------------------------------
 Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
 --------------------------------------------------->
-<? echo html_entity_decode($remarketing, ENT_QUOTES);?>
+<? echo base64_decode($remarketing);?>
 
 <!-- End LiveStats -->
 </body>
