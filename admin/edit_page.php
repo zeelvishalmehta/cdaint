@@ -104,7 +104,7 @@ if($_POST['Submit'] == "Edit")
 		 </tr>	
 		<? } ?>
 	 
-     <tr><td align="left"><a href="all_page.php">Back</a></td></tr>		  
+		  <tr><td align="left"><a href="all_page.php">Back</a></td></tr>
     <tr><td><b>Title:</b></td>
 		<td><textarea name="title" required rows="20" columns="15"><? echo $title;?></textarea><td></tr>
 	  
@@ -114,7 +114,9 @@ if($_POST['Submit'] == "Edit")
 	  
 	 <tr><td><b>Background Image:</b></td>
 	  <td><input type="file" name="image" <? if($image=='') { ?>required <? } ?>>
-		 <img src="../image/<? echo $image;?>" width="60px" height="60px"></td>
+		 <img src="../image/<? echo $image;?>" width="60px" height="60px"><br>
+		  <font size="2px" color="red">*An Image name must be without spaces.</font>
+		</td>
 	 </tr> 
      
 	  <tr>
@@ -136,8 +138,7 @@ if($_POST['Submit'] == "Edit")
 	  if($_GET['id']==2)
 	  { ?>
 		 <tr><td><b>Email address:</b></td>
-	  <td><input type="text" name="email" value="<? echo $email;?>" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
-         <br>*Mentioned email address is getting all enquiry and feedback from the users and it's editable by admin only.		  
+	  <td><input type="text" name="email" value="<? echo $email;?>" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><br><font size="2px" color="red">*Mentioned email address is getting all enquiry and feedback from the users and it's editable by admin only.</font>
 	  </td>
 	 </tr>  
 	  <? }
