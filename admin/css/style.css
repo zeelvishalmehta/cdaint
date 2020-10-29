@@ -1,0 +1,165 @@
+body {font-family: Arial, Helvetica, sans-serif; background-color:#f5f5f0}
+
+input[type=text], input[type=password] {
+  width: 79%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.login-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 11px 20px;
+  margin-left: 80px;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+  font-size: 15px;	
+  font-weight: bold;	
+}
+
+.login-btn:hover {
+  opacity: 0.8;
+}
+
+.editbtn
+{
+	font-size: 15px;
+	font-weight: bold;
+	width: 90px;
+	height: 34px;
+	background-color: darkgray;
+	color: white;
+}
+
+table
+{
+	border-collapse: separate;
+	border-spacing: 0 1em;
+}
+
+.emsg {
+  margin-top: 17px;
+  font-size:15px;
+  color: red;	
+  margin-left: 81px;  	
+}
+
+.textcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  font-size: 20px;
+  font-weight: bold;	
+}
+
+
+.container {
+  padding: 16px;
+  width: 30%;
+  margin: auto;	
+  border: 2px solid #ebebe0;
+  background-color: white;	
+	  
+}
+
+.editcontainer
+{
+  padding: 16px;
+  width: 51%;
+  margin: auto;	
+  border: 2px solid #ebebe0;
+  background-color: white;	
+}
+
+.edittag
+{
+	padding: 16px;
+  	width: 45%;
+  	margin: auto;	
+  	border: 2px solid #ebebe0;
+	background-color: white;
+}
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+.main
+{
+	width: 100%;
+	font-size: 20px;
+	font-weight: bold;
+	margin: auto;
+}	
+
+.innermain
+{
+	margin-top: 171px;
+	margin-left: 300px;
+	border: black 1px solid;
+		
+}
+.inside
+{
+	margin-right: 15px;
+	margin-left: 10px;
+		
+}
+textarea[name=title]
+{
+	width: 350px;
+	height: 53px;
+}
+textarea[name=description]
+{
+	width: 300px;
+	height: 53px;
+}
+
+#pages {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 93%;
+  text-align: center;	
+}
+
+#pages td, #pages th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#pages tr:nth-child(even){background-color: #f2f2f2;}
+
+#pages tr:hover {background-color: #ddd;}
+
+#pages th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+.admin
+{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	color: #8080ff;
+	
+}
+.rowedit
+{
+	font-weight: normal;
+	font-size: 16px;
+	
+}
+
+.tdedit
+{
+	text-align: center;
+	font-weight: bold;
+	
+}
