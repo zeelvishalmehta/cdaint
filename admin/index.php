@@ -65,11 +65,11 @@ if($_POST['Submit'] == "Log In")
 
   <div class="container">
 	  <div class="emsg"><? if($_GET['error']!=''){ echo "Invalid username or password";}?></div>
-    <label for="uname"><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
+    <label for="uname" class="loginlabel"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required><br>
 
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
+    <label for="psw" class="loginlabel"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required><br>
         
 	  <input type="submit" name="Submit" class="login-btn" Value="Log In">
     </div>
